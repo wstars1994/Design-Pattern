@@ -15,6 +15,8 @@ public class Test {
 	
 	public static void main(String[] args) {
 		IXYJFactory factory = new XYJ02Factory();//只需要更换或者添加工厂类即可
+//		IXYJFactory factory = new XYJ86Factory();
+//		IXYJFactory factory = new XYJ95Factory();
 		IXYJProduct product = factory.create();
 		product.watch();
 	}
