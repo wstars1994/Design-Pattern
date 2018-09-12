@@ -10,6 +10,7 @@ import dp.factory.ab4tract.computer.MediumComputer;
 
 /**
  *	抽象工厂模式
+ *	适用于构建一个拥有多系列不同型的产品
  */
 public class Test {
 
