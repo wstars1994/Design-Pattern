@@ -15,9 +15,13 @@ import dp.factory.method.factory.XYJ02Factory;
 public class Test {
 	
 	public static void main(String[] args) {
+		//看02版西游记
 		IXYJFactory factory = new XYJ02Factory();//只需要更换或者添加工厂类即可
+		//看86版西游记
 //		IXYJFactory factory = new XYJ86Factory();
+		//看95版西游记
 //		IXYJFactory factory = new XYJ95Factory();
+		
 		IXYJProduct product = factory.create();
 		product.watch();
 	}
