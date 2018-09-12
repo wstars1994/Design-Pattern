@@ -10,7 +10,7 @@ public class SimpleCartoonFactory {
 	public static final int HULUWA = 2;
 	public static final int ATM = 3;
 	
-	public static ICartoon watch(int type) {
+	public static ICartoon getCartoon(int type) {
 		ICartoon cartoon = null;
 		switch (type) {
 		case QZGS:

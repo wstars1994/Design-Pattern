@@ -11,9 +11,9 @@ package dp.factory.simple;
 public class Test {
 
 	public static void main(String[] args) {
-		ICartoon watch = SimpleCartoonFactory.watch(SimpleCartoonFactory.ATM);
-		ICartoon watch2 = SimpleCartoonFactory.watch(SimpleCartoonFactory.QZGS);
-		ICartoon watch3 = SimpleCartoonFactory.watch(SimpleCartoonFactory.HULUWA);
+		ICartoon watch = SimpleCartoonFactory.getCartoon(SimpleCartoonFactory.ATM);
+		ICartoon watch2 = SimpleCartoonFactory.getCartoon(SimpleCartoonFactory.QZGS);
+		ICartoon watch3 = SimpleCartoonFactory.getCartoon(SimpleCartoonFactory.HULUWA);
 		watch.watch();
 		watch2.watch();
 		watch3.watch();
