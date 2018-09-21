@@ -7,3 +7,5 @@
  * [简单工厂](https://github.com/wstars1994/Design-Pattern/tree/master/src/dp/factory/simple "简单工厂")
  * [工厂方法](https://github.com/wstars1994/Design-Pattern/tree/master/src/dp/factory/method "工厂方法")
  * [抽象工厂](https://github.com/wstars1994/Design-Pattern/tree/master/src/dp/factory/ab4tract "抽象工厂")
+ 
+#### 3 . [装饰器Decorator](https://github.com/wstars1994/Design-Pattern/tree/master/src/dp/decorator/ "观察者")
